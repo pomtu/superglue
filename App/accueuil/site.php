@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="../../Public/site.css">
 </head>
-
+<!-- ceci est un commentaire -->
 <body>
     <header id="haut">
         <a href="../l'equipe/equipe.php" class="lien" id="eq">L'équipe</a>
