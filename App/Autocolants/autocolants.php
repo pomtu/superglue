@@ -1,5 +1,5 @@
 <!doctype html>
-<?php include "Base_Donée.php"?>
+<?php include "Base_Donnée.php"?>
 <head>
     <link rel="stylesheet" href="../../Public/site.css">
 </head>
@@ -14,7 +14,7 @@
     </header>
     <h1>NOS STICKERS</h1>
     <?php foreach ($sticker as $stick => $nom) : ?>
-        <div>
+        <div class=autocolant>
             <p><?=$nom ?></p>
             <img src="../../Public/images/<?=($nom) ?>">
         </div>
