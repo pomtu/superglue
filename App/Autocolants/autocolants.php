@@ -1,5 +1,5 @@
 <!doctype html>
-
+<?php include "Base_Donée.php"?>
 <head>
     <link rel="stylesheet" href="../../Public/site.css">
 </head>
@@ -13,3 +13,9 @@
         <a href="" class="lien" id="st">Nous soutenir</a>
     </header>
     <h1>NOS STICKERS</h1>
+    <?php foreach ($sticker as $stick => $nom) : ?>
+        <div>
+            <p><?=$nom ?></p>
+            <img src="../../Public/images/<?=($nom) ?>">
+        </div>
+    <?php endforeach ?>
