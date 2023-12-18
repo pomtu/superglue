@@ -1,5 +1,5 @@
 <!doctype html>
-<?php include "Base_Donnée.php" ?>
+<?php include "Base_Donnée_autocolant.php" ?>
 <?php include '../header.php'; ?>
 <h1>NOS STICKERS</h1>
 <?php foreach ($sticker as $stick => $nom) : ?>
