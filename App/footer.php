@@ -3,9 +3,8 @@
         <div id="FL">
             <p>Nous Contacter</p>
             <ul>
-                <li><a href="">Nos actions</a></li>
-                <li><a href="../l'equipe/equipe.php">L'équipe</a></li>
-                <li><a href="../Autocolants/autocolants.php">Nos stickers</a></li>
+                <li><a href="">Nos coordonées</a></li>
+                <li><a href="">Formulaire de contacte</a></li>
             </ul>
         </div>
         <div id="FC">
