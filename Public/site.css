@@ -295,7 +295,7 @@ footer>div>ul {
 
 .stickers {
     display: inline-block;
-    height: 150px;
+    height: 190px;
     margin-bottom: auto;
     margin-top: 100px;
     margin-left: 100px;
@@ -309,6 +309,7 @@ footer>div>ul {
     background-color: black;
     border: white solid 5px;
     margin-bottom: auto;
+    text-align: center;
 
 }
 
@@ -321,7 +322,7 @@ footer>div>ul {
 }
 
 .vente {
-    text-align: center;
+    text-align: left;
     margin-bottom: 100px;
 }
 
@@ -375,3 +376,20 @@ footer>div>ul {
     font-size: 15px;
 }
 
+#FeuR{
+    height: 280px;
+    margin-top: 0%;
+}
+#Bombe{
+    height: 280px;
+}
+#De{
+    height: 290px;
+
+}
+#Mirroire{
+    height: 280px;
+}
+#THELogo{
+    height: 240px;
+}
