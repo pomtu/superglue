@@ -301,7 +301,7 @@ footer>div>ul {
     margin-left: 100px;
 }
 
-.autocolant {
+.autocollant {
     display: inline-block;
     font-size: 25px;
     height: 300px;
@@ -312,7 +312,7 @@ footer>div>ul {
 
 }
 
-.autocolant>p {
+.autocollant>p {
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
@@ -353,7 +353,7 @@ footer>div>ul {
     font-size: 17px;
 }
 
-.identitée {
+.identité {
     border-radius: 50%;
     height: 150px;
 }

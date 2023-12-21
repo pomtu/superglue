@@ -3,7 +3,7 @@
 <?php include '../header.php'; ?>
 <h1>L’ASSOCIATION SUPERGLUE</h1>
 <div class="left">
-    <h2>Mais qui sommes nous</h2>
+    <h2>Mais qui sommes-nous ?</h2>
     <p class="letter">Nous, les SuperGlue, c’est notre nom de code, une équipe de folie, tout feu tout flamme, qui
         carbure à la
         diversité et à l’amour pour la communauté LGBT+. On s’est dit : pourquoi se contenter d’être des justiciers
@@ -12,7 +12,7 @@
 </div>
 <hr class="left-lign">
 <div class="right">
-    <h2>Mais que faisons nous ?</h2>
+    <h2>Mais que faisons-nous ?</h2>
     <figure class="corner-box folded-corner-top-left">
         <p id="R" class="letter">Notre mission, c’est de redonner du peps à la fierté LGBT+ et de lutter contre les
             discriminations
