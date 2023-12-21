@@ -289,13 +289,15 @@ footer>div>ul>li>a{
     margin-bottom: 30px;
 }
 .nom{
+    color: white;
     margin-left: auto;
     margin-right: auto;
     border: none;
     margin-bottom: 5px;
 }
-.photo>img{
+.identitée{
     border-radius: 50%;
+    height: 150px;
 }
 #trombi{
     text-align: center;

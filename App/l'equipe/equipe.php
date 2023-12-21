@@ -11,7 +11,7 @@ include 'database_php_trombi.php';
   <?php foreach ($legroupe as $membre) : ?>
 
     <div class="carte">
-      <a href="fiche.php">
+      <a href="fiche<?= $membre['firstname'] ?>.php">
         <?php
         if (isset($membre['photo'])) {
           $photo = 'photo' . $membre['photo'];
@@ -19,10 +19,10 @@ include 'database_php_trombi.php';
           $photo = 'defaut.webp';
         }
         ?>
-        <figure class="photo"><img src="../../Public/images/<?= $membre['photo'] ?>">
+        <figure class="photo"><img class="identitée" src="../../Public/images/<?= $membre['photo'] ?>">
         </figure>
         <div class="infos">
-          <p class="nom"><?= $membre['firstname'] ?> <span><?= $membre['lastname'] ?></span></p>
+          <p class="nom"><?= $membre['firstname'] ?> <?= $membre['lastname'] ?></p>
         </div>
       </a>
     </div>
@@ -30,5 +30,5 @@ include 'database_php_trombi.php';
 
   <?php endforeach ?>
 </div>
-<p id="merci">Merci à tous nos amis scintillant, qui nous ont aidé ! Raphael, Liza, Eulalie.</p>
+<p id="merci">Merci à tous nos amis scintillants, qui nous ont aidé ! Raphael, Liza, Eulalie.</p>
 <?php include '../footer.php'; ?>
