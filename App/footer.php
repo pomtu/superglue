@@ -2,16 +2,16 @@
     <footer>
         <div id="FL">
             <p>Nous Contacter</p>
-            <ul>
-                <li><a href="">Nos coordonées</a></li>
-                <li><a href="">Formulaire de contacte</a></li>
+            <ul class="LiFooter">
+                <li><a href="" class="TxtFooter">Nos coordonées</a></li>
+                <li><a href="" class="TxtFooter">Formulaire de contacte</a></li>
             </ul>
         </div>
         <div id="FC">
             <p>Droits</p>
-            <ul>
-                <li><a href="../mentionslegales.html">Mentions légales</a></li>
-                <li><a href="">CGV</a></li>
+            <ul class="LiFooter">
+                <li><a href="../mentionslegales.html" class="TxtFooter">Mentions légales</a></li>
+                <li><a href="" class="TxtFooter">CGV</a></li>
 
             </ul>
         </div>

@@ -23,7 +23,7 @@ $legroupe = [
         'firstname' => "Lili-Rose",
         'lastname' => "Burgos",
         'photo' => 'lili.jpg',
-        'description' => "Chargé de communication réseaux sociaux",
+        'description' => "Chargé de communication",
     ],
     5 => [
         'firstname' => "Amina",

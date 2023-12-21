@@ -11,7 +11,7 @@ include 'database_php_trombi.php';
   <?php foreach ($legroupe as $membre) : ?>
 
     <div class="carte">
-      <a href="fiche<?= $membre['firstname'] ?>.php">
+      <a class="fiche"href="fiche<?= $membre['firstname'] ?>.php">
         <?php
         if (isset($membre['photo'])) {
           $photo = 'photo' . $membre['photo'];
@@ -23,6 +23,7 @@ include 'database_php_trombi.php';
         </figure>
         <div class="infos">
           <p class="nom"><?= $membre['firstname'] ?> <?= $membre['lastname'] ?></p>
+          <p class="description"><?= $membre['description']?></p>
         </div>
       </a>
     </div>

@@ -1,131 +1,158 @@
-*{
+* {
     color: rgb(0, 0, 0);
-    border:0;
+    border: 0;
     font-family: "Signika";
 
 }
+
 @font-face {
     font-family: Anton;
     src: url(Anton/Anton-Regular.ttf);
 }
+
 @font-face {
     font-family: Signika;
     src: url(Signika/Signika-VariableFont_GRAD\,wght.ttf);
 }
-@keyframes animate{
-    0%{
-      background-position: 0 50%;
+
+@keyframes animate {
+    0% {
+        background-position: 0 50%;
     }
-    50%{
-      background-position: 100% 50%;
+
+    50% {
+        background-position: 100% 50%;
     }
-    100%{
-      background-position: 0 50%;
+
+    100% {
+        background-position: 0 50%;
     }
 }
 
-body{
-  z-index: 1;
-  background: linear-gradient(-75deg, black, var(--color-pink), var(--color-pink2), black);
-  background-size: 400% 400%;
-  animation: animate 10s ease infinite;
-  margin: 0;
+body {
+    z-index: 1;
+    background: linear-gradient(-75deg, black, var(--color-pink), var(--color-pink2), black);
+    background-size: 400% 400%;
+    animation: animate 10s ease infinite;
+    margin: 0;
 }
 
-:root{
-  --color-pink: #e73e82;
-  --color-pink2: #da4b94;
-  --color-pink3: #df6fa8;
-  --color-lilas: #dccee6;
+:root {
+    --color-pink: #e73e82;
+    --color-pink2: #da4b94;
+    --color-pink3: #df6fa8;
+    --color-lilas: #dccee6;
 }
-img{
+
+img {
     height: 70px;
 }
-header{
+
+header {
     background-color: black;
-    height: 120px;
+    height: 100px;
     margin: 0;
     text-align: center;
     padding-top: 9px;
 }
 
 
-h1{
+h1 {
     color: white;
     text-align: center;
     font-size: 40px;
     font-family: "Anton";
 }
-h2{
+
+h2 {
     color: white;
     font-size: 30px;
     font-family: "Anton";
 }
-p{
+
+p {
     width: 60%;
     margin: 14px;
     margin-bottom: 50px;
     padding: 2%;
-    border:  5px solid white;
+    border: 5px solid white;
 }
-.right{
+
+.right {
     text-align: right;
     padding-right: 5%;
 }
-.left{
+
+.left {
     text-align: left;
     padding-left: 2%;
 }
-a{
+
+a {
     color: white;
     font-size: 20px;
     /*font-family: ; */
     text-decoration: none;
     transition: 1s;
 }
-a:hover{
+
+a:hover {
     color: #e73e82;
     font-size: 22px;
 }
-#R{
+
+#R {
     margin-left: 40%;
 }
-.left-lign{
+
+.left-lign {
     text-align: left;
     width: 70%;
     margin-right: 30%;
     height: 3px;
     background-color: white;
 }
-.right-lign{
+
+.right-lign {
     text-align: right;
     width: 70%;
     margin-left: 30%;
     height: 3px;
     background-color: white;
 }
-.lien{
-    padding: 1.5%;
-    padding-left: 5%;
-    padding-right: 5%;
+
+.lien {
+    padding: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
     vertical-align: middle;
+    width: 15%;
 }
-#st{
-    border-left:  1px solid gray;
+
+.ListeHeader {
+    display: inline-block;
+    width: 17%;
 }
-#eq{
+
+#st {
+    border-left: 1px solid gray;
+}
+
+#eq {
     border-right: 1px solid gray;
 }
-#map{
+
+#map {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
 }
-iframe{
-    border:10px solid white;
+
+iframe {
+    border: 10px solid white;
     border-radius: 10px;
 
-   
+
 }
 
 .letter {
@@ -134,6 +161,7 @@ iframe{
     padding: 24px;
     position: relative;
 }
+
 .letter:hover:before {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     height: 110%;
@@ -143,6 +171,7 @@ iframe{
     top: -4px;
     transform: rotate(-3deg);
 }
+
 .letter:hover:after {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     height: 110%;
@@ -185,48 +214,51 @@ iframe{
     -moz-transform: rotate(1.4deg);
 }
 
-
-
 figure {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
 }
-footer{
+
+footer {
     margin: 0;
     padding: 0;
     background-color: black;
 }
-footer>div>p{
+
+footer>div>p {
     color: white;
     border: none;
     font-size: 30px;
-    font-weight:bold;
+    font-weight: bold;
     margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-footer>div>a>img{
-    height: 27px ;
+
+footer>div>a>img {
+    height: 27px;
     background-color: white;
     border-radius: 30%;
     display: inline-flex;
     padding: 10px;
 }
-footer>div{
+
+footer>div {
     display: inline-block;
     margin-left: 9.3%;
     margin-right: 9.3%;
     vertical-align: middle;
 }
-footer>div>ul{
+
+footer>div>ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
 }
 
-#fleche{
+#fleche {
     background-color: white;
     border-radius: 100%;
     text-align: center;
@@ -234,18 +266,18 @@ footer>div>ul{
     height: 70px;
     transform: rotate(90deg);
 }
-footer>div>ul>li>a{
-    font-size: 15px;
-}
-#grp{
+
+#grp {
     width: 100%;
     height: auto;
     position: static;
 }
-#grp_pht{
+
+#grp_pht {
     text-align: center;
 }
-#merci{
+
+#merci {
     font-size: 35px;
     border: none;
     padding: none;
@@ -255,29 +287,45 @@ footer>div>ul>li>a{
     margin-right: auto;
     text-align: center;
 }
-.lien, .lien>img{
-    margin-top: 20px;
+
+.lien,
+.lien>img {
+    margin-top: -15px;
 }
-.autocolant>img{
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-    width: fit-content;
+
+.stickers {
+    display: inline-block;
+    height: 150px;
+    margin-bottom: auto;
+    margin-top: 100px;
+    margin-left: 100px;
 }
-.autocolant{
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5%;
-    width: 30%;
-    text-align: center;
-    border: #ffffff solid 5px;
+
+.autocolant {
+    display: inline-block;
+    font-size: 25px;
+    height: 300px;
+    width: 500px;
     background-color: black;
+    border: white solid 5px;
+    margin-bottom: auto;
+
 }
-.autocolant>p{
-    font-size: 30px;
-    color: #ffffff;
+
+.autocolant>p {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    border: none;
+    color: white;
 }
-.carte{
+
+.vente {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.carte {
     display: inline-block;
     width: 20%;
     text-align: center;
@@ -285,20 +333,45 @@ footer>div>ul>li>a{
     margin-right: 1%;
     border: solid white 5px;
     border-radius: 30%;
-    height: fit-content;
     margin-bottom: 30px;
 }
-.nom{
+
+.nom {
     color: white;
     margin-left: auto;
     margin-right: auto;
     border: none;
     margin-bottom: 5px;
 }
-.identitée{
+
+.description {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.identitée {
     border-radius: 50%;
     height: 150px;
 }
-#trombi{
+
+#trombi {
     text-align: center;
 }
+
+.fiche:hover {
+    font-size: 20px;
+}
+
+.TxtFooter {
+    font-size: 15px;
+
+}
+
+.TxtFooter:hover {
+    font-size: 15px;
+}
+
