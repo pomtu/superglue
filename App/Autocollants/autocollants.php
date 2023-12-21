@@ -8,7 +8,7 @@
             <p><?= $autocollant['nom'] ?></p>
             <p><?= $autocollant['description']?></p>
         </div>
-        <img src="../../Public/images/<?= ($nom) ?>" class="stickers">
+        <img src="../../Public/images/<?= ($autocollant['nom']) ?>" class="stickers">
     </div>
 <?php endforeach ?>
 
