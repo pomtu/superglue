@@ -1,6 +1,7 @@
 <!doctype html>
 
 <?php include '../Common/header.php'; ?>
+<title>SuperGlue</title>
 <h1>L’ASSOCIATION SUPERGLUE</h1>
 <div class="left">
     <h2>Mais qui sommes-nous ?</h2>

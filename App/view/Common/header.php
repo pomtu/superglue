@@ -1,5 +1,7 @@
 <head>
     <link rel="stylesheet" href="../../../Public/site.css">
+    <link rel="shortcut icon" type="images/png"href="../../../Public/images/logo_superpglue_inchala.webp">
+    
 </head>
 
 <body>

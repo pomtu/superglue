@@ -1,6 +1,7 @@
 <!doctype html>
 <?php include "Base_Donnée_autocollant.php" ?>
 <?php include '../Common/header.php'; ?>
+<title>Boutique</title>
 <h1>NOS STICKERS</h1>
 <?php foreach ($sticker as $stick => $autocollant) : ?>
     <div class="vente"> 

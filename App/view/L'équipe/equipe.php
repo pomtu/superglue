@@ -2,6 +2,7 @@
 
 <?php include '../Common/header.php'; ?>
 <img src="../../../Public/images/grp.JPG" id="grp">
+<title>L'Equipe</title>
 <h1>L'EQUIPE</h1>
 
 <?php
