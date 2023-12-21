@@ -1,6 +1,6 @@
 <!doctype html>
 
-<?php include '../header.php'; ?>
+<?php include '../Common/header.php'; ?>
 <h1>L’ASSOCIATION SUPERGLUE</h1>
 <div class="left">
     <h2>Mais qui sommes-nous ?</h2>
@@ -38,4 +38,4 @@
     </figure>
     <br />
 </div>
-<?php include '../footer.php'; ?>
+<?php include '../Common/footer.php'; ?>

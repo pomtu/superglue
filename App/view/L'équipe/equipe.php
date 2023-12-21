@@ -1,7 +1,7 @@
 <!doctype html>
 
-<?php include '../header.php'; ?>
-<img src="../../Public/images/grp.JPG" id="grp">
+<?php include '../Common/header.php'; ?>
+<img src="../../../Public/images/grp.JPG" id="grp">
 <h1>L'EQUIPE</h1>
 
 <?php
@@ -19,7 +19,7 @@ include 'database_php_trombi.php';
           $photo = 'defaut.webp';
         }
         ?>
-        <figure class="photo"><img class="identité" src="../../Public/images/<?= $membre['photo'] ?>">
+        <figure class="photo"><img class="identité" src="../../../Public//images/<?= $membre['photo'] ?>">
         </figure>
         <div class="infos">
           <p class="nom"><?= $membre['firstname'] ?> <?= $membre['lastname'] ?></p>
@@ -32,4 +32,4 @@ include 'database_php_trombi.php';
   <?php endforeach ?>
 </div>
 <p id="merci">Merci à tous nos amis scintillants, qui nous ont aidé ! Raphael, Liza, Eulalie.</p>
-<?php include '../footer.php'; ?>
+<?php include '../Common/footer.php'; ?>
