@@ -32,5 +32,5 @@ include 'database_php_trombi.php';
 
   <?php endforeach ?>
 </div>
-<p id="merci">Merci à tous nos amis scintillants, qui nous ont aidé ! Raphael, Liza, Eulalie.</p>
+<p id="merci">Merci à tous nos amis scintillants, qui nous ont aidé ! Raphael, Liza, Eulalie (Et meme Constantin).</p>
 <?php include '../Common/footer.php'; ?>
