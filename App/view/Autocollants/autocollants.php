@@ -5,11 +5,13 @@
 <h1>NOS STICKERS</h1>
 <?php foreach ($sticker as $stick => $autocollant) : ?>
     <div class="vente"> 
+        <a href="<?= $autocollant['lien'] ?>">
         <div class=autocollant>
             <p><?= $autocollant['nom'] ?></p>
             <p><?= $autocollant['description']?></p>
             <p><?= $autocollant['prix']?></p>
         </div>
+        </a>
         <img src="../../../Public/images/<?= ($autocollant['nom']) ?>" class="stickers" id="<?= $autocollant['id']?>">
     </div>
 <?php endforeach ?>
