@@ -4,7 +4,7 @@
             <p>Nous Contacter</p>
             <ul class="LiFooter">
                 <li><a href="" class="TxtFooter">Nos coordonées</a></li>
-                <li><a href="" class="TxtFooter">Formulaire de contacte</a></li>
+                <li><a href="" class="TxtFooter">Formulaire de contact</a></li>
             </ul>
         </div>
         <div id="FC">
