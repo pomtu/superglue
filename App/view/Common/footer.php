@@ -1,3 +1,4 @@
+<?php include "base_donnee_footer.php" ?>
 <a href="#haut"><img src="../../../Public/images/icone-fleche-gauche-noir.png" id="fleche"></a>
     <footer>
         <div id="FL">
@@ -17,10 +18,27 @@
         </div>
         <div id="FR">
             <p>Nos Réseaux</p>
-            <a href="https://discord.gg/jKGJEsTNAg"><img src="../../../Public/images/logo-discord.png"></a>
-            <a href="https://www.instagram.com/wearesuperglue_/"><img src="../../../Public/images/logo-instagram.png"></a>
-            <a href="https://www.youtube.com/@Super_glue."><img src="../../../Public/images/logo-youtube.png"></a>
-            <a href="https://twitter.com/Superglu_e"><img src="../../../Public/images/logo-X.png"></a>
+            <div id="Instagram">
+            <?=$reseauxsociaux['1']['nom'] ?>
+            <?=$reseauxsociaux['1']['lien'] ?>
+            <?=$reseauxsociaux['1']['image'] ?>
+            </div>
+            <div id="Twitter">
+            <?=$reseauxsociaux['2']['nom'] ?>
+            <?=$reseauxsociaux['2']['lien'] ?>
+            <?=$reseauxsociaux['2']['image'] ?>
+            </div>
+            <div id="Discord">
+            <?=$reseauxsociaux['4']['nom'] ?>
+            <?=$reseauxsociaux['4']['lien'] ?>
+            <?=$reseauxsociaux['4']['image'] ?>
+            </div>
+            <div id="Youtube">
+            <?=$reseauxsociaux['3']['nom'] ?>
+            <?=$reseauxsociaux['3']['lien'] ?>
+            <?=$reseauxsociaux['3']['image'] ?>
+            </div>
+
         </div>
     </footer>
 </body>
