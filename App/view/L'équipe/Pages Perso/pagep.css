@@ -1,0 +1,35 @@
+body{
+    background-color: #c2dcfa;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.un,.deux, .trois{
+    background-color: #283f79;
+    vertical-align: auto;
+    width: 70%;
+    text-align: center;
+    border-radius: 5%;
+}
+
+img {
+    width: 83px;
+    border-radius: 50%;
+    
+}
+h3 {
+    text-align: center;
+}
+
+.un p {
+    text-align: center;
+    padding: 0%;
+}
+li {
+    list-style: none;
+    text-align: center;
+    }
+ div{
+    margin: auto;
+ }

@@ -71,7 +71,6 @@ h2 {
 }
 
 p {
-    width: 60%;
     margin: 14px;
     margin-bottom: 50px;
     padding: 2%;
@@ -224,6 +223,7 @@ footer {
     margin: 0;
     padding: 0;
     background-color: black;
+    text-align: center;
 }
 
 footer>div>p {
@@ -247,8 +247,8 @@ footer>div>a>img {
 
 footer>div {
     display: inline-block;
-    margin-left: 9.3%;
-    margin-right: 9.3%;
+    margin-left: 8%;
+    margin-right: 8%;
     vertical-align: middle;
 }
 
@@ -262,9 +262,10 @@ footer>div>ul {
     background-color: white;
     border-radius: 100%;
     text-align: center;
-    margin-left: 45%;
+    margin-left: 50%;
     height: 70px;
     transform: rotate(90deg);
+    margin-bottom:25px ;
 }
 
 #grp {
