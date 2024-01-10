@@ -1,0 +1,85 @@
+.section_carousel {
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+section {
+    display: block;
+}
+
+.carousel {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transform: perspective(1100px) rotate(0deg);
+    animation: rotate 12s linear infinite;
+}
+
+div {
+    display: block;
+}
+
+.carousel-img {
+    position: absolute;
+    width: 90%;
+    object-fit: cover;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+}
+
+.carousel_item {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 60deg)) translateZ(300px);
+}
+
+@keyframes rotate {
+    100% {
+        transform: perspective(1100px) rotateY(360deg);
+    }
+}
+
+#De {
+    filter: drop-shadow(0 0 0.75rem rgb(52, 52, 52));
+}
+
+#ACDC {
+    filter: drop-shadow(0 0 0.75rem rgb(255, 0, 47));
+    padding-top: 30%;
+}
+
+#piment {
+    filter: drop-shadow(0 0 0.85rem rgb(199, 0, 0));
+}
+
+#bombe {
+    filter: drop-shadow(0 0 0.75rem rgb(255, 255, 0));
+}
+
+#miroire {
+    filter: drop-shadow(0 0 0.75rem rgb(86, 198, 229));
+}
+
+#logo {
+    filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+    padding-top: 30%;
+
+}
+
+#logoID {
+    width: 100%;
+    height: 100%;
+}

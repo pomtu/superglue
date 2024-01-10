@@ -18,26 +18,10 @@
         </div>
         <div id="FR">
             <p>Nos Réseaux</p>
-            <div id="Instagram">
-            <?=$reseauxsociaux['1']['nom'] ?>
-            <?=$reseauxsociaux['1']['lien'] ?>
-            <?=$reseauxsociaux['1']['image'] ?>
-            </div>
-            <div id="Twitter">
-            <?=$reseauxsociaux['2']['nom'] ?>
-            <?=$reseauxsociaux['2']['lien'] ?>
-            <?=$reseauxsociaux['2']['image'] ?>
-            </div>
-            <div id="Discord">
-            <?=$reseauxsociaux['4']['nom'] ?>
-            <?=$reseauxsociaux['4']['lien'] ?>
-            <?=$reseauxsociaux['4']['image'] ?>
-            </div>
-            <div id="Youtube">
-            <?=$reseauxsociaux['3']['nom'] ?>
-            <?=$reseauxsociaux['3']['lien'] ?>
-            <?=$reseauxsociaux['3']['image'] ?>
-            </div>
+            <a href="<?=$reseauxsociaux['1']['lien']?>"><img src="<?=$reseauxsociaux['1']['photo'] ?>" alt="<?=$reseauxsociaux['1']['nom'] ?>"></a>
+            <a href="<?=$reseauxsociaux['2']['lien']?>"><img src="<?=$reseauxsociaux['2']['photo'] ?>" alt="<?=$reseauxsociaux['2']['nom'] ?>"></a>
+            <a href="<?=$reseauxsociaux['3']['lien']?>"><img src="<?=$reseauxsociaux['3']['photo'] ?>" alt="<?=$reseauxsociaux['3']['nom'] ?>"></a>
+            <a href="<?=$reseauxsociaux['4']['lien']?>"><img src="<?=$reseauxsociaux['4']['photo'] ?>" alt="<?=$reseauxsociaux['4']['nom'] ?>"></a>
 
         </div>
     </footer>

@@ -37,6 +37,8 @@
     <figure class="letter">
         <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-15.996597561892289%2C36.06440549300438%2C19.02781650060772%2C53.824802930646655&amp;layer=mapnik"></iframe>
     </figure>
-    <br />
+    <br>
+    <br>
+    <?php include 'carouselle.html'; ?>
 </div>
 <?php include '../Common/footer.php'; ?>
