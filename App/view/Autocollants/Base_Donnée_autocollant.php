@@ -1,7 +1,7 @@
 <?php
 $sticker = [
     1 => [
-        "nom" => "LG⚡BT",
+        "nom" => "Metal",
         "description"=>"Pour les fans de Metal et de paillettes",
         "prix"=>"0,80€",
         "id"=>"ACDC",
@@ -19,7 +19,7 @@ $sticker = [
         "id"=>"Bombe",
         "lien"=>""],
     4 => [
-        "nom" => "L.G.B.Dé",
+        "nom" => "L.G.B.D",
         "description"=>"Parce que le genre n'est pas un choix",
         "prix"=>"0,7O€",
         "id"=>"De",

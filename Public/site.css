@@ -44,7 +44,7 @@ body {
     --color-lilas: #dccee6;
 }
 
-img {
+li>a>img{
     height: 70px;
 }
 
