@@ -26,14 +26,6 @@ $legroupe = [
         "aime"=>""
     ],
     4=>[
-        "photo"=>"lili.jpg",
-        "nom"=>"Lili-Rose",
-        "role"=>"Chargée de communication sur les réseaux sociaux",
-        "age"=>"17",
-        "description"=>"",
-        "aime"=>""
-    ],
-    5=>[
         "photo"=>"amina.jpg",
         "nom"=>"Amina",
         "role"=>"Coordinatrice d’équipe",
@@ -41,6 +33,15 @@ $legroupe = [
         "description"=>"",
         "aime"=>""
     ],
+    5=>[
+        "photo"=>"lili.jpg",
+        "nom"=>"Lili-Rose",
+        "role"=>"Chargée de communication sur les réseaux sociaux",
+        "age"=>"17",
+        "description"=>"",
+        "aime"=>""
+    ],
+    
     6=>[
         "photo"=>"alexis.jpg",
         "nom"=>"Alexis",

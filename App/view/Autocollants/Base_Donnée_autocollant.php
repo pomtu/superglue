@@ -36,5 +36,11 @@ $sticker = [
         "prix"=>"0,50€",
         "id"=>"THELogo",
         "lien"=>""],
+    7 => [
+        "nom" => "Le Piment",
+        "description"=>"Une oeuvre épicée qui horneras vos murs",
+        "prix"=>"0,40€",
+        "id"=>"Piment",
+        "lien"=>""],
 ];
 ?>

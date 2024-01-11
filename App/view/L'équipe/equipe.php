@@ -20,7 +20,7 @@ include 'database_php_trombi.php';
           $photo = 'defaut.webp';
         }
         ?>
-        <figure class="photo"><img class="identité" src="../../../Public//images/<?= $membre['photo'] ?>">
+        <figure class="photo"><img id="<?= $membre['firstname']?>" class="identité" src="../../../Public//images/<?= $membre['photo'] ?>">
         </figure>
         <div class="infos">
           <p class="nom"><?= $membre['firstname'] ?> <?= $membre['lastname'] ?></p>

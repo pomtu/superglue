@@ -20,17 +20,18 @@ $legroupe = [
         'description' => "Développeur web",
     ],
     4 => [
-        'firstname' => "Lili-Rose",
-        'lastname' => "Burgos",
-        'photo' => 'lili.jpg',
-        'description' => "Chargé de communication",
-    ],
-    5 => [
         'firstname' => "Amina",
         'lastname' => "Meghoufel",
         'photo' => 'amina.jpg',
         'description' => "Coordinatrice d'équipe",
     ],
+    5 => [
+        'firstname' => "Lili-Rose",
+        'lastname' => "Burgos",
+        'photo' => 'lili.jpg',
+        'description' => "Chargé de communication",
+    ],
+    
     6 => [
         'firstname' => "Alexis",
         'lastname' => "Tison",
