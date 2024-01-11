@@ -253,9 +253,18 @@ footer>div>a>img {
 
 footer>div {
     display: inline-block;
+    vertical-align: middle;
+}
+#FC{
     margin-left: 8%;
     margin-right: 8%;
-    vertical-align: middle;
+}
+#FL{
+    margin-left: 12%;
+    
+}
+#FR{
+    margin-right: 8%;
 }
 
 footer>div>ul {
