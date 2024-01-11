@@ -12,7 +12,7 @@ include 'database_php_trombi.php';
   <?php foreach ($legroupe as $membre) : ?>
 
     <div class="carte">
-      <a class="fiche"href="fiche<?= $membre['firstname'] ?>.php">
+      <a class="fiche"href="Page<?= $membre['firstname'] ?>.php">
         <?php
         if (isset($membre['photo'])) {
           $photo = 'photo' . $membre['photo'];

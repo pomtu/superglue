@@ -1,0 +1,158 @@
+* {
+    color: rgb(0, 0, 0);
+    border: 0;
+    font-family: "Signika";
+
+}
+
+@font-face {
+    font-family: Anton;
+    src: url(Anton/Anton-Regular.ttf);
+}
+
+@font-face {
+    font-family: Signika;
+    src: url(Signika/Signika-VariableFont_GRAD\,wght.ttf);
+}
+body{
+    background-color: #FECCC9;
+    color: white;
+    margin: 0;
+}
+
+.un,.deux, .trois{
+    background-color: #8E191F;
+    vertical-align: auto;
+    width: 70%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+.un p {
+    text-align: center;
+    padding: 0%;
+}
+li {
+    list-style: none;
+    text-align: center;
+    }
+.top,.un,.deux, .trois{
+    margin: auto;
+ }
+ li>a>img{
+    height: 70px;
+}
+.ListeHeader {
+    display: inline-block;
+    width: 17%;
+}
+li {
+    list-style: none;
+    text-align: center;
+}
+
+.lien {
+    padding: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    vertical-align: middle;
+    width: 15%;
+}
+.lien,
+.lien>img {
+    margin-top: -15px;
+}
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+}
+
+footer>div>p {
+    color: white;
+    border: none;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 221px;
+}
+
+footer>div>a>img {
+    height: 27px;
+    background-color: white;
+    border-radius: 30%;
+    display: inline-flex;
+    padding: 10px;
+}
+
+footer>div {
+    display: inline-block;
+    margin-left: 8%;
+    margin-right: 8%;
+    vertical-align: middle;
+}
+
+footer>div>ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#fleche {
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    margin-left: 50%;
+    height: 70px;
+    transform: rotate(90deg);
+    margin-bottom:25px ;
+    margin-top:25px ;
+}
+.TxtFooter {
+    font-size: 15px;
+}
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 1s;
+}
+header {
+    background-color: black;
+    height: 100px;
+    margin: 0;
+    text-align: center;
+    padding-top: 9px;
+    border-radius: 0 0 25px 25px;
+}
+a:hover {
+    color: #e73e82;
+    font-size: 22px;
+}
+p, li{
+    color: white;
+}
+#photo_equipe{
+    height: 100px;
+    border-radius: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+#eq {
+    border-right: 1px solid gray;
+}
+#st {
+    border-left: 1px solid gray;
+}
+ul{padding: 0;}
