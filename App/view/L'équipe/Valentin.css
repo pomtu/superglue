@@ -15,13 +15,13 @@
     src: url(Signika/Signika-VariableFont_GRAD\,wght.ttf);
 }
 body{
-    background-color: #ff7f78;
+    background-color: #ebff92;
     color: white;
     margin: 0;
 }
 
 .un,.deux, .trois{
-    background-color: #770006;
+    background-color: #9da431;
     vertical-align: auto;
     width: 70%;
     text-align: center;

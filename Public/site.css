@@ -438,3 +438,7 @@ footer>div>ul {
 #Piment{
     height: 300px;
 }
+
+.carte:hover{
+    background-color: black;
+}
