@@ -7,12 +7,12 @@
 
 @font-face {
     font-family: Anton;
-    src: url(Anton/Anton-Regular.ttf);
+    src: url(../../../Public/Anton/Anton-Regular.ttf);
 }
 
 @font-face {
     font-family: Signika;
-    src: url(Signika/Signika-VariableFont_GRAD\,wght.ttf);
+    src: url(../../../Public/Signika/Signika-VariableFont_GRAD\,wght.ttf);
 }
 body{
     background-color: #ff7f78;
