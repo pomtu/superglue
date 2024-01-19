@@ -25,8 +25,8 @@ $legroupe = [
         "nom"=>"Valentin",
         "role"=>"Programmeur web",
         "age"=>"18",
-        "description"=>"",
-        "aime"=>""
+        "description"=>"Je suis le programmeur web de l'équipe, et c'est à peu près tout.",
+        "aime"=>"Constantin, Les dinosaures🦖, programmer"
     ],
     4=>[
         "photo"=>"amina.jpg",

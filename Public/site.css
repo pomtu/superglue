@@ -354,6 +354,7 @@ footer>div>ul {
     border: solid white 5px;
     border-radius: 30%;
     margin-bottom: 30px;
+    transition: 1s;
 }
 
 .nom {
