@@ -32,7 +32,7 @@ $legroupe = [
         "photo"=>"amina.jpg",
         "nom"=>"Amina",
         "role"=>"Coordinatrice d’équipe",
-        "age"=>"18 ans",
+        "age"=>"18",
         "description"=>"Je suis une personne qui n'arrive pas à écrire sa description.
         ",
         "aime"=>"on A jugé mes passions (reLou.e.s), donc Bon, j’ai décidé de ne plus les partager. merci..… tu sAis qui tu es. je Ne dirais pas qui c’est parce qu’il va se fâcher.
