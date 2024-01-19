@@ -15,11 +15,8 @@
     src: url(../../../Public/Signika/Signika-VariableFont_GRAD\,wght.ttf);
 }
 body{
-<<<<<<< HEAD
-    background-color: #d1f4b5;
-=======
+
     background-color: #7db386;
->>>>>>> 256cca69dd5e50ce514e2c6441e91c539887f374
     color: white;
     margin: 0;
 }
