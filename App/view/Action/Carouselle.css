@@ -1,0 +1,10 @@
+marquee>img{
+    height: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+marquee{
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    margin: none;
+}

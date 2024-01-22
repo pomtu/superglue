@@ -7,7 +7,7 @@
     <div class="vente"> 
         <a href="<?= $autocollant['lien'] ?>">
         <div class=autocollant>
-            <p><?= $autocollant['nom'] ?></p>
+            <h4><?= $autocollant['nom'] ?></h4>
             <p><?= $autocollant['description']?></p>
             <p><?= $autocollant['prix']?></p>
         </div>

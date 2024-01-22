@@ -325,7 +325,7 @@ footer>div>ul {
     width: 500px;
     background-color: black;
     border: white solid 5px;
-    border-radius: 15%;
+    border-radius: 20px;
     margin-bottom: auto;
     text-align: center;
 
@@ -442,4 +442,9 @@ footer>div>ul {
 
 .carte:hover{
     background-color: black;
+}
+
+h4{
+    color: #da4b94;
+    font-size: 35px;
 }

@@ -18,7 +18,7 @@ section {
     height: 300px;
     transform-style: preserve-3d;
     transform: perspective(1100px) rotate(0deg);
-    animation: rotate 12s linear infinite;
+    animation: rotate 30s linear infinite;
 }
 
 div {
@@ -29,6 +29,11 @@ div {
     position: absolute;
     width: 90%;
     object-fit: cover;
+}
+
+.lien-carou{
+    height: 324px;
+    width: 324px;
 }
 
 img {
