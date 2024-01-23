@@ -6,7 +6,7 @@ $legroupe = [
         "nom"=>"Alban",
         "role"=>"Chef de projet",
         "age"=>"18",
-        "description"=>"Ma chanson préféré est True love will find you in the end (@oxywantsmore sur IG)((Ajoutez moi par pitié <3))
+        "description"=>"Ma chanson préférée est True love will find you in the end (@oxywantsmore sur IG)((Ajoutez moi par pitié <3))
         ",
         "aime"=>"La musique (en faire et en écouter),les tatouages, la techno (je tape du pied), les chats (miaou), les vinyles, l’amour, l’escalade, les drapeaux, le design, la mode et le bibimbap végé de mon resto coréen préféré(dans le 3e). 
         "
@@ -35,7 +35,7 @@ $legroupe = [
         "age"=>"18",
         "description"=>"Je suis une personne qui n'arrive pas à écrire sa description.
         ",
-        "aime"=>"on A jugé mes passions (reLou.e.s), donc Bon, j’ai décidé de ne plus les partager. merci..… tu sAis qui tu es. je Ne dirais pas qui c’est parce qu’il va se fâcher.
+        "aime"=>"on A jugé mes passions (reLou.e.s), donc Bon, j’ai décidé de ne plus les partager. merci... tu sAis qui tu es. je Ne dirais pas qui c’est parce qu’il va se fâcher.
         "
     ],
     5=>[
