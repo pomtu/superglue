@@ -11,6 +11,6 @@
             <li class="ListeHeader"><a href="../Autocollants/autocollants.php" class="lien">Nos stickers</a></li>
             <li class="ListeHeader"><a href="../Accueil/site.php" class="lien"><img src="../../../Public/images/logo_superpglue_inchala.webp" id='logoHeader'></a></li>
             <li class="ListeHeader"><a href="../L'équipe/equipe.php" class="lien">L'équipe</a></li>
-            <li class="ListeHeader"><a href="" class="lien" id="st">Nous soutenir</a></li>
+            <li class="ListeHeader"><a href="../Nous contacter/index_formulaire.php" class="lien" id="st">Nous contacter</a></li>
         </ul>
     </header>
