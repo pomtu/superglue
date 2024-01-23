@@ -6,6 +6,7 @@
     <title>Formulaire de contact</title>
     <link href="formulaire.css" rel="stylesheet">
 </head>
+<?php include 'equipe_header.php'; ?>
 <body>
     <h1>Formulaire de contact</h1>
     
@@ -91,5 +92,5 @@
     </main>
 
 </body>
-
+<?php include '../Common/footer.php'; ?>
 </html>
