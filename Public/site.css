@@ -115,7 +115,9 @@ a:hover {
     height: 3px;
     background-color: white;
 }
-
+ul{
+    padding: 0;
+}
 .right-lign {
     text-align: right;
     width: 70%;
@@ -125,9 +127,9 @@ a:hover {
 }
 
 .lien {
-    padding: 20px;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     vertical-align: middle;
     width: 15%;
 }
@@ -161,27 +163,27 @@ iframe {
 .letter {
     background: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    padding: 24px;
+    padding: 2%;
     position: relative;
 }
 
 .letter:hover:before {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    height: 110%;
+    height: 105%;
     position: absolute;
     width: 105%;
-    left: -16px;
-    top: -4px;
+    left: -5%;
+    top: -1%;
     transform: rotate(-3deg);
 }
 
 .letter:hover:after {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    height: 110%;
+    height: 105%;
     position: absolute;
     width: 105%;
-    right: -17px;
-    top: 15px;
+    right: -5%;
+    top: 2%;
     transform: rotate(2deg);
 }
 
@@ -200,8 +202,8 @@ iframe {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
-    left: -5px;
-    top: 4px;
+    left: -1%;
+    top: 1%;
     transform: rotate(-2.7deg);
     -webkit-transform: rotate(-2.7deg);
     -moz-transform: rotate(-2.7deg);
@@ -210,8 +212,8 @@ iframe {
 .letter:after {
     background: #f6f6f6;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-    right: -16px;
-    top: 14px;
+    right: -3%;
+    top: 3%;
     transform: rotate(1.4deg);
     -webkit-transform: rotate(1.4deg);
     -moz-transform: rotate(1.4deg);
@@ -286,15 +288,15 @@ footer>div>ul {
     margin-right: 49%;
     height: 70px;
     transform: rotate(90deg);
-    margin-bottom:25px ;
-    margin-top:25px ;
+    margin-bottom:2% ;
+    margin-top:2% ;
 }
 
 #grp {
     width: 100%;
     height: auto;
     position: static;
-    margin-top: -21px;
+    margin-top: -1.5%;
 }
 
 #grp_pht {
@@ -311,11 +313,6 @@ footer>div>ul {
     margin-right: auto;
     text-align: center;
     color: white;
-}
-
-.lien,
-.lien>img {
-    margin-top: -15px;
 }
 
 .stickers {
