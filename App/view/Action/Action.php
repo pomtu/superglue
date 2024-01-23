@@ -8,8 +8,8 @@
     </figure>
     <br>
     <h2>Que faisons nous ?</h2>
-    <h2>Des stickers!</h2>
-    <?php include("Carouselle.html") ?>
+    <h3>Des stickers!</h3>
+    <?php include("Carrousel.html") ?>
     
 </div>
 
