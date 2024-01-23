@@ -91,6 +91,7 @@ p {
 .left {
     text-align: left;
     padding-left: 2%;
+    width: 50%;
 }
 
 a {
@@ -163,7 +164,7 @@ iframe {
     background: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     padding: 24px;
-    width: 50%;
+
     position: relative;
 }
 
