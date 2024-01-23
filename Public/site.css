@@ -295,7 +295,7 @@ footer>div>ul {
 }
 
 #merci {
-    font-size: 35px;
+    font-size: 30px;
     border: none;
     padding: none;
     margin: 1.5%;
@@ -303,6 +303,7 @@ footer>div>ul {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    color: white;
 }
 
 .lien,
