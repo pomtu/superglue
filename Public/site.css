@@ -35,6 +35,7 @@ body {
     background-size: 400% 400%;
     animation: animate 10s ease infinite;
     margin: 0;
+    width: fit-content;
 }
 
 :root {
@@ -102,7 +103,6 @@ a {
 
 a:hover {
     color: #e73e82;
-    font-size: 22px;
 }
 
 #R {
