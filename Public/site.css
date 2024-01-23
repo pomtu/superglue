@@ -45,7 +45,7 @@ body {
     --color-lilas: #dccee6;
 }
 
-#logoHeader{
+#logoHeader {
     width: 85%;
     margin: auto;
 }
@@ -78,7 +78,7 @@ h2 {
 }
 
 p {
-    margin: 3% ;
+    margin: 3%;
     padding: 2%;
     border: 5px solid white;
 }
@@ -231,7 +231,7 @@ footer {
     padding: 1%;
     background-color: black;
     text-align: center;
-    width:100%;
+    width: 100%;
 }
 
 footer>div>p {
@@ -259,20 +259,23 @@ footer>div {
     vertical-align: middle;
     width: 25%;
 }
-#FC{
+
+#FC {
     margin-left: 4%;
     margin-right: 4%;
     text-align: center;
 }
-#FL{
+
+#FL {
     margin-left: 4%;
     margin-right: 4%;
     text-align: center;
 }
-#FR{
-   margin-left: 4%;
-   margin-right: 4%;
-   text-align: center;
+
+#FR {
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
 }
 
 footer>div>ul {
@@ -289,8 +292,8 @@ footer>div>ul {
     margin-right: 49%;
     height: 70px;
     transform: rotate(90deg);
-    margin-bottom:25px ;
-    margin-top:25px ;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 #grp {
@@ -406,56 +409,69 @@ footer>div>ul {
 .TxtFooter:hover {
     font-size: 15px;
 }
-#De{
+
+#De {
     height: 250px;
 }
-#FeuR{
+
+#FeuR {
     height: 280px;
     margin-top: 0%;
 }
-#Bombe{
+
+#Bombe {
     height: 280px;
 }
-#DeCarous{
+
+#DeCarous {
     height: fit-content;
 }
-#Mirroire{
+
+#Mirroire {
     height: 280px;
 }
-#THELogo{
+
+#THELogo {
     height: 210px;
 }
 
-#Alban{
+#Alban {
     border: 6px solid red;
 }
-#Alexandre{
+
+#Alexandre {
     border: 6px solid orangered;
 }
-#Valentin{
+
+#Valentin {
     border: 6px solid yellow;
 }
-#Amina{
+
+#Amina {
     border: 6px solid green;
 }
-#Lili-Rose{
+
+#Lili-Rose {
     border: 6px solid blue;
 }
-#Alexis{
+
+#Alexis {
     border: 6px solid rgb(249, 34, 224);
 }
-#Ahinoa{
+
+#Ahinoa {
     border: 6px solid purple;
 }
-#Piment{
+
+#Piment {
     height: 300px;
 }
 
-.carte:hover{
+.carte:hover {
     background-color: black;
 }
 
-h4{
+h4 {
     color: #da4b94;
     font-size: 35px;
 }
