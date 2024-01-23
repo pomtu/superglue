@@ -1,4 +1,4 @@
-/* .section_carrousel { */
+ .section_carrousel {
     padding: 0;
     box-sizing: border-box;
     display: flex;
@@ -87,4 +87,4 @@ img {
 #logoID {
     width: 100%;
     height: 100%;
-}
+} 
