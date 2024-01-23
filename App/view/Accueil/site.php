@@ -32,5 +32,5 @@
     </figure>
 </div>
 <br>
-<?php include 'carouselle.html'; ?>
+<?php include 'carrousel.html'; ?>
 <?php include '../Common/footer.php'; ?>
