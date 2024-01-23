@@ -4,7 +4,7 @@ marquee>img{
     margin-left: 100px;
 }
 marquee{
-    border-top: 10px solid black;
-    border-bottom: 10px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
     margin: none;
 }
