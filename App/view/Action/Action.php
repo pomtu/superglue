@@ -1,4 +1,5 @@
 <!doctype html>
+<link rel="stylesheet" href="action.css">
 
 <?php include '../Common/header.php'; ?>
 <div id="actions">
@@ -9,9 +10,19 @@
     <br>
     <h2>Que faisons nous ?</h2>
     <h3>Des stickers!</h3>
+    <div class="musique">
+    <img src="/Public/images/photos4.JPG" >
+    </div>
+   <div class="poteau">
+   <img src="/Public/images/photos6.JPG" >
+   </div>
+   <div class="telescope">
+   <img src="/Public/images/photos8.JPG" >
+   </div>
     <?php include("Carrousel.html") ?>
+    <div id=video>   
     <iframe width="560" height="315" src="https://www.youtube.com/embed/J6loDQM1d14?si=8ZBWmIOwViH51uyr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+    </div>
     
 </div>
 
