@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire de contact</title>
     <link href="formulaire.css" rel="stylesheet">
+    <link rel="stylesheet" href="../L'équipe/">
 </head>
-<?php include 'equipe_header.php'; ?>
+
 <body>
     <h1>Formulaire de contact</h1>
     
@@ -92,5 +93,4 @@
     </main>
 
 </body>
-<?php include '../Common/footer.php'; ?>
 </html>
