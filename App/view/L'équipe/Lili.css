@@ -20,12 +20,14 @@ body{
     margin: 0;
 }
 
-.un,.deux, .trois{
+.cadre{
     background-color: #00005e;
     vertical-align: auto;
     width: 70%;
     text-align: center;
     border-radius: 15px;
+    padding: 21px;
+    margin: 49px auto !important;
 }
 
 
