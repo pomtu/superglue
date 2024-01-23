@@ -12,7 +12,7 @@
             <p>Droits</p>
             <ul class="LiFooter">
                 <li><a href="../Common/mentionslegales.html" class="TxtFooter">Mentions légales</a></li>
-                <li><a href="" class="TxtFooter">CGV</a></li>
+                <li><a href="../Common/cgv.html" class="TxtFooter">CGV</a></li>
 
             </ul>
         </div>
