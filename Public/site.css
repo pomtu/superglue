@@ -146,10 +146,12 @@ a:hover {
 
 #st {
     border-left: 1px solid gray;
+    padding-left: 38%;
 }
 
 #eq {
     border-right: 1px solid gray;
+    padding-right: 45%;
 }
 
 #map {
