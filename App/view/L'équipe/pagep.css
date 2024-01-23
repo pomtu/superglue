@@ -3,12 +3,14 @@ body{
     color: white;
 }
 
-.un,.deux, .trois{
+cadre{
     background-color: #283f79;
     vertical-align: auto;
     width: 70%;
     text-align: center;
     border-radius: 5%;
+    padding: 21px;
+    margin: 49px auto !important;
 }
 
 
@@ -24,6 +26,3 @@ li {
     list-style: none;
     text-align: center;
     }
-.top,.un,.deux, .trois{
-    margin: auto;
- }

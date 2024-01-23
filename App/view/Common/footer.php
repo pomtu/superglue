@@ -1,5 +1,4 @@
 <?php include "base_donnee_footer.php" ?>
-<a href="#haut"><img src="../../../Public/images/icone-fleche-gauche-noir.png" id="fleche"></a>
     <footer>
         <div id="FL">
             <p>Nous contacter</p>
