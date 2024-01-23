@@ -14,7 +14,7 @@
     <img src="../../../Public/images/<?= $personne["photo"] ?>" id="photo_equipe">
     <h3> <?= $personne["nom"] ?></h3>
 </div>
-<div class="un">
+<div class="un cadre">
     <p> Qui suis-je ?</p>
 
     <ul>
@@ -23,11 +23,11 @@
         <li> -Première année de BUT MMI</li>
     </ul>
 </div>
-<div class="deux">
+<div class="deux cadre">
     <p> Description</p>
     <p><?= $personne["description"] ?></p>
 </div>
-<div class="trois">
+<div class="trois cadre">
     <p> J'aime</p>
     <p><?= $personne["aime"] ?></p>
 </div>

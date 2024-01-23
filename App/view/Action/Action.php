@@ -18,7 +18,6 @@
    </div>
    <div class="telescope">
    <img src="/Public/images/photos8.JPG" >
-   <p> </p>
    </div>
     <?php include("Carrousel.html") ?>
     <div id=video>   

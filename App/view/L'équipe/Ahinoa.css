@@ -19,15 +19,15 @@ body{
     color: white;
     margin: 0;
 }
-
-.un,.deux, .trois{
+.cadre {
     background-color: #814783;
     vertical-align: auto;
     width: 70%;
     text-align: center;
     border-radius: 15px;
+    padding: 21px;
+    margin: 49px auto !important;
 }
-
 
 h3 {
     text-align: center;
@@ -116,7 +116,7 @@ footer>div>ul {
     height: 70px;
     transform: rotate(90deg);
     margin-bottom:25px ;
-    margin-top:25px ;
+    margin-top:25px;
 }
 .TxtFooter {
     font-size: 15px;
